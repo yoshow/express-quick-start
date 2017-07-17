@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  h1= title
+  div id #{testid}
+  div returnCode #{returnCode}
+  div value #{value}
+  div
+    div id #{result.data.id}
+    div modifiedDate #{result.data.modifiedDate}
